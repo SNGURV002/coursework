@@ -1,6 +1,10 @@
 * {
   box-sizing: border-box;
+  margin:0;
+  padding:0;
 }
+
+body{
 
 .row{
   width: 100%;
@@ -10,6 +14,13 @@
  position: relative;
  top:60px;
  margin: 15px;
+}
+
+ .Menu_title{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
 
  .item{
   position: relative;
@@ -37,17 +48,17 @@
 }
 
 #title-one {
-  background-color: #D59898;
+  background-color: green;
 }
 
 #title-two{
-  background-color: #C14543;
+  background-color: lightblue;
 }
 
 #title-three{
-  background-color: #E5D198;
+  background-color: lightpink;
 }
-
+}
 
 /********** Large devices only **********/
  @media (min-width: 992px){
@@ -99,6 +110,7 @@ width: 100%;
   .col-lg-4{
   float: left;
   width: 50%;
+}
 }
 
 .col-lg-tablet{
